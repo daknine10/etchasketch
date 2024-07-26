@@ -1,0 +1,34 @@
+
+h1 {
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 800px;
+    border: 1px solid;
+}
+
+.grid {
+    box-sizing: border-box;
+    border: 1px solid white;
+    height: 50px;
+    width: 50px;
+}
+
+button {
+    margin: 5px;
+}
+
+img {
+    width: 800px;
+    height: 800px;
+}
